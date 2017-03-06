@@ -6,11 +6,11 @@ You can manage your database's evolution by creating incremental SQL or Go scrip
 
 # Install
 
-    $ go get bitbucket.org/liamstask/goose/cmd/goose
+    $ go get github.com/kohkimakimoto/goose/cmd/goose
 
 This will install the `goose` binary to your `$GOPATH/bin` directory.
 
-You can also build goose into your own applications by importing `bitbucket.org/liamstask/goose/lib/goose`. Documentation is available at [godoc.org](http://godoc.org/bitbucket.org/liamstask/goose/lib/goose).
+You can also build goose into your own applications by importing `github.com/kohkimakimoto/goose/lib/goose`. Documentation is available at [godoc.org](http://godoc.org/github.com/kohkimakimoto/goose/lib/goose).
 
 NOTE: the API is still new, and may undergo some changes.
 
@@ -225,7 +225,7 @@ These instructions assume that you're using [Keith Rarick's Heroku Go buildpack]
 // note: need at least one blank line after build constraint
 package main
 
-import _ "bitbucket.org/liamstask/goose/cmd/goose"
+import _ "github.com/kohkimakimoto/goose/cmd/goose"
 ```
 
 [Set up your Heroku database(s) as usual.](https://devcenter.heroku.com/articles/heroku-postgresql)
